@@ -1,6 +1,6 @@
 # idfsplat
 
-A command-line tool and Python library to extract available EnergyPlus API data for an IDF file.
+A command-line tool and Python library to extract available EnergyPlus Exchange API data for an IDF file.
 
 
 

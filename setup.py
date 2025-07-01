@@ -8,7 +8,7 @@ setup(
     version="0.1.0",
     author="Federico Rosato",
     author_email="federico.rosato@supsi.ch",
-    description="A tool to extract available EnergyPlus API data for an IDF file.",
+    description="A tool to extract available EnergyPlus Exchange API data for an IDF file.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/supsi-dacd-isaac/idfsplat",
