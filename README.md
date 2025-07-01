@@ -1,6 +1,6 @@
 # idfsplat
 
-A command-line tool and Python library to extract available EnergyPlus API data for an IDF file..
+A command-line tool and Python library to extract available EnergyPlus API data for an IDF file.
 
 
 
@@ -9,6 +9,7 @@ A command-line tool and Python library to extract available EnergyPlus API data 
 
 ## Installation
 
+After cloning the repository, you can install the package using pip. The package might be uploaded to PyPI in the future, but for now, you can install it directly from the source.
 ```bash
 pip install -e .
 ```
@@ -36,14 +37,6 @@ from idfsplat.splat import run_splat
 # Run the tool programmatically
 df = run_splat("input.idf", "weather.epw", output_path="output.xlsx")
 print(df)
-```
-
-### Example
-
-Run the included example:
-
-```bash
-python idfsplat/example.py
 ```
 
 ## Requirements
